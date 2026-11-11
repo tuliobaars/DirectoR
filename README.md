@@ -22,6 +22,30 @@ folder's path into the Library page, or run the app and paste its URL:
 shiny::runApp(system.file("examples/orbit", package = "DirectoR"), port = 3838)   # then paste http://127.0.0.1:3838
 ```
 
+<!-- taiga:begin -->
+## Feature tour
+
+| | | |
+|---|---|---|
+| ![Library](docs/features/01-library.jpg)<br>**Library** | ![Story](docs/features/04-story.jpg)<br>**Story** | ![Shots](docs/features/05-shots.jpg)<br>**Shots** |
+| ![Autopilot](docs/features/08-autopilot.jpg)<br>**Autopilot** | ![Source & scout](docs/features/03-source-scout.jpg)<br>**Source & scout** | ![Look](docs/features/07-look.jpg)<br>**Look** |
+
+*Screenshots from a test bench built from this package's own UI code and assets (no R runtime was available where they were made). See [docs/DESIGN.md](docs/DESIGN.md#feature-screenshots).* All 9 screenshots, with captions: [docs/DESIGN.md](docs/DESIGN.md).
+
+**Promo video:** [`media/DirectoR_teaser_30s.mp4`](media/DirectoR_teaser_30s.mp4) (30 s, 1080p60), made with QuantSkill's video utility.
+
+### Delivery formats
+
+| Format | Status | Entry point |
+|---|---|---|
+| Shiny | ✓ | `run_app()`, `director_app()`, `app.R` |
+| Quarto | specified, not yet built | planned `dr_export_quarto(project)` |
+| HTML | specified, not yet built | planned `dr_export_html(project)` |
+
+Design system: **Lumen** (cinematic, high-contrast, glass-driven). Styleguide, requirements and the Shiny · Quarto · HTML delivery model are in [`../taiga-design-system/`](../taiga-design-system/README.md); this project's page is [docs/DESIGN.md](docs/DESIGN.md).
+
+<!-- taiga:end -->
+
 ## One-time setup of the film engine
 
 The engine is Python (bundled in `inst/engine`). It drives Chromium through Playwright, and it uses ffmpeg.

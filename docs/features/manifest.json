@@ -1,0 +1,119 @@
+{
+ "app": "DirectoR",
+ "framework": "lumen",
+ "viewport": {
+  "width": 1440,
+  "height": 900
+ },
+ "device_scale_factor": 2,
+ "shots": [
+  {
+   "file": "01-library.jpg",
+   "title": "Library",
+   "caption": "Paste a link, a Git repository or a zip; pick a template and let autopilot direct the film.",
+   "provenance": "bench",
+   "source": "bench: R/ui.R + R/server_*.R renderers (webR, shim.R) + inst/app/www/director.{css,js}; films from the DirectoR engine",
+   "theme": "dark",
+   "width": 2880,
+   "height": 1800,
+   "bytes": 342521,
+   "captured": "2026-11-11T19:03:10Z"
+  },
+  {
+   "file": "02-library-films.jpg",
+   "title": "Your films",
+   "caption": "Each film is a project folder; the cards show what the scout saw.",
+   "provenance": "bench",
+   "source": "bench: R/ui.R + R/server_*.R renderers (webR, shim.R) + inst/app/www/director.{css,js}; films from the DirectoR engine",
+   "theme": "dark",
+   "width": 2880,
+   "height": 1800,
+   "bytes": 370971,
+   "captured": "2026-11-11T19:03:16Z"
+  },
+  {
+   "file": "03-source-scout.jpg",
+   "title": "Source & scout",
+   "caption": "The scout launched the app, explored its tabs and learned its name, colours and screens.",
+   "provenance": "bench",
+   "source": "bench: R/ui.R + R/server_*.R renderers (webR, shim.R) + inst/app/www/director.{css,js}; films from the DirectoR engine",
+   "theme": "dark",
+   "width": 2880,
+   "height": 1800,
+   "bytes": 409146,
+   "captured": "2026-11-11T19:03:30Z"
+  },
+  {
+   "file": "04-story.jpg",
+   "title": "Story",
+   "caption": "Storyboard written from the README and the screens, with the live preview playing the real footage.",
+   "provenance": "bench",
+   "source": "bench: R/ui.R + R/server_*.R renderers (webR, shim.R) + inst/app/www/director.{css,js}; films from the DirectoR engine",
+   "theme": "dark",
+   "width": 2880,
+   "height": 1800,
+   "bytes": 439515,
+   "captured": "2026-11-11T19:03:47Z"
+  },
+  {
+   "file": "05-shots.jpg",
+   "title": "Shots",
+   "caption": "Footage recorded frame by frame with a virtual clock: each shot is an editable recipe of actions.",
+   "provenance": "bench",
+   "source": "bench: R/ui.R + R/server_*.R renderers (webR, shim.R) + inst/app/www/director.{css,js}; films from the DirectoR engine",
+   "theme": "dark",
+   "width": 2880,
+   "height": 1800,
+   "bytes": 465904,
+   "captured": "2026-11-11T19:04:00Z"
+  },
+  {
+   "file": "06-sound.jpg",
+   "title": "Sound",
+   "caption": "Voice providers (with what to install), seven music moods, and the voice-over lines.",
+   "provenance": "bench",
+   "source": "bench: R/ui.R + R/server_*.R renderers (webR, shim.R) + inst/app/www/director.{css,js}; films from the DirectoR engine",
+   "theme": "dark",
+   "width": 2880,
+   "height": 1800,
+   "bytes": 451836,
+   "captured": "2026-11-11T19:04:15Z"
+  },
+  {
+   "file": "07-look.jpg",
+   "title": "Look",
+   "caption": "Format, theme, background and motion; every change updates the preview.",
+   "provenance": "bench",
+   "source": "bench: R/ui.R + R/server_*.R renderers (webR, shim.R) + inst/app/www/director.{css,js}; films from the DirectoR engine",
+   "theme": "dark",
+   "width": 2880,
+   "height": 1800,
+   "bytes": 390530,
+   "captured": "2026-11-11T19:04:30Z"
+  },
+  {
+   "file": "08-autopilot.jpg",
+   "title": "Autopilot",
+   "caption": "Direct it for me: scout, script, voice, record, score and cut, with live progress.",
+   "provenance": "bench",
+   "source": "bench: R/ui.R + R/server_*.R renderers (webR, shim.R) + inst/app/www/director.{css,js}; films from the DirectoR engine",
+   "theme": "dark",
+   "width": 2880,
+   "height": 1800,
+   "bytes": 162533,
+   "captured": "2026-11-11T19:04:59Z"
+  },
+  {
+   "file": "09-export.jpg",
+   "title": "Export",
+   "caption": "Draft or Final 1080p60, extra aspect ratios, and sibling cuts from the same footage.",
+   "provenance": "bench",
+   "source": "bench: R/ui.R + R/server_*.R renderers (webR, shim.R) + inst/app/www/director.{css,js}; films from the DirectoR engine",
+   "theme": "dark",
+   "width": 2880,
+   "height": 1800,
+   "bytes": 368624,
+   "captured": "2026-11-11T19:04:43Z"
+  }
+ ]
+}
