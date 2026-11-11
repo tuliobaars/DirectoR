@@ -1,0 +1,24 @@
+html, body { width: 100%; height: 100%; margin: 0; background: #0a0a0c; overflow: hidden; font-family: 'Inter', -apple-system, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+#fit { position: absolute; left: 0; top: 0; transform-origin: 0 0; cursor: pointer; box-shadow: 0 0 0 1px rgba(255, 255, 255, .06); }
+#fit #stage { position: absolute; left: 0; top: 0; }
+#pbar { position: absolute; left: 0; right: 0; bottom: 0; height: 56px; display: flex; align-items: center; gap: 12px; padding: 0 14px;
+  background: linear-gradient(180deg, rgba(18, 18, 22, .9), rgba(10, 10, 12, .98)); border-top: 1px solid rgba(255, 255, 255, .07); color: #e5e5ea; font-size: 12px; user-select: none; z-index: 10; }
+body.nobar #pbar { display: none; }
+#pbar button { flex: none; width: 34px; height: 34px; border-radius: 10px; border: 0; background: rgba(255, 255, 255, .06); color: #f5f5f7; display: grid; place-items: center; cursor: pointer; transition: background .15s, transform .15s; font: 700 11px/1 'Inter', system-ui; letter-spacing: .02em; }
+#pbar button:hover { background: rgba(255, 255, 255, .13); }
+#pbar button:active { transform: scale(.94); }
+#pbar button svg { width: 16px; height: 16px; fill: currentColor; }
+#pbar #pp { width: 38px; height: 38px; border-radius: 50%; background: linear-gradient(135deg, #6366f1, #a855f7 55%, #ec4899); box-shadow: 0 6px 20px -6px rgba(168, 85, 247, .7); }
+#pbar #pp svg { width: 18px; height: 18px; }
+#pbar #cc.on { background: #f5f5f7; color: #111; }
+#pbar #mu.off #mux { opacity: .2; }
+#tc, #td { font-variant-numeric: tabular-nums; color: #a1a1aa; min-width: 44px; }
+#tc { color: #f5f5f7; font-weight: 600; }
+#track { position: relative; flex: 1; height: 28px; cursor: pointer; }
+#segs { position: absolute; left: 0; right: 0; top: 9px; height: 10px; border-radius: 6px; overflow: hidden; background: rgba(255, 255, 255, .06); }
+#segs i { position: absolute; top: 0; bottom: 0; opacity: .38; border-right: 2px solid #0a0a0c; }
+#segs b { position: absolute; bottom: 0; height: 3px; background: rgba(255, 255, 255, .85); border-radius: 2px; }
+#prog { position: absolute; left: 0; top: 9px; height: 10px; border-radius: 6px 0 0 6px; background: rgba(255, 255, 255, .22); pointer-events: none; }
+#head { position: absolute; top: 3px; width: 3px; height: 22px; margin-left: -1.5px; border-radius: 2px; background: #fff; box-shadow: 0 0 10px rgba(255, 255, 255, .6); pointer-events: none; }
+#hover { position: absolute; bottom: 30px; transform: translateX(-50%); padding: 3px 7px; border-radius: 6px; background: rgba(0, 0, 0, .8); color: #fff; font-size: 11px; opacity: 0; pointer-events: none; transition: opacity .12s; white-space: nowrap; }
+#track:hover #hover { opacity: 1; }

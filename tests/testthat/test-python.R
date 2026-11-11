@@ -1,0 +1,20 @@
+test_that("python discovery skips a python without the engine's packages", {
+  skip_on_os("windows")
+  good <- director_python(refresh = TRUE)
+  skip_if(!nzchar(good) || !isTRUE(DirectoR:::dr_python_probe(good)$ok), "no ready python here")
+  bad <- file.path(tempfile("badpy"))
+  st <- suppressWarnings(system2(good, c("-m", "venv", "--without-pip", bad), stdout = FALSE, stderr = FALSE))
+  skip_if(st != 0, "venv not available")
+  old <- Sys.getenv("PATH"); on.exit({ Sys.setenv(PATH = old); assign("python", NULL, envir = DirectoR:::.dr_state) })
+  Sys.setenv(PATH = paste(file.path(bad, "bin"), old, sep = ":"))
+  expect_equal(unname(Sys.which("python3")), file.path(bad, "bin", "python3"))
+  cands <- DirectoR:::dr_python_candidates()
+  expect_true(file.path(bad, "bin", "python3") %in% cands)          # a venv is not a "duplicate" of its base python
+  expect_false(DirectoR:::dr_python_probe(file.path(bad, "bin", "python3"))$ok)
+  chosen <- director_python(refresh = TRUE)
+  expect_false(startsWith(chosen, bad))
+  expect_true(DirectoR:::dr_python_probe(chosen)$ok)
+  d <- director_doctor(file.path(bad, "bin", "python3"))
+  expect_true(isTRUE(d$failed))
+  expect_match(d$error, "No module named")                           # the real error, not the start of the traceback
+})

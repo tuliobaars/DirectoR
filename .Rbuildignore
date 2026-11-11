@@ -1,0 +1,9 @@
+^renv$
+^renv\.lock$
+^.*\.Rproj$
+^\.Rproj\.user$
+^tests/engine$
+__pycache__
+\.pyc$
+^app\.R$
+^\.gitignore$

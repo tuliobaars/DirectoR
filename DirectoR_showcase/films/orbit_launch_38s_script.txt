@@ -1,0 +1,9 @@
+Orbit: voice-over script (pico)
+
+[00.60-07.50]  Revenue, in orbit. A tiny sales dashboard built with Shiny and bslib, to try DirectoR on.
+[08.25-09.17]  Meet Orbit.
+[10.65-14.13]  Revenue, customers and growth, at a glance.
+[14.88-20.61]  Explore. Pick a region and a time window; the chart and trend line follow instantly.
+[21.36-26.26]  Forecast. Set a growth scenario and see the projected revenue months ahead.
+[27.01-30.25]  Data. Every monthly figure in one clean table.
+[33.80-36.51]  Orbit. Revenue, in orbit.

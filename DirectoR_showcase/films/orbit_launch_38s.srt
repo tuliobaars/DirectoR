@@ -1,0 +1,27 @@
+1
+00:00:00,550 --> 00:00:07,754
+Revenue, in orbit. A tiny sales dashboard built with Shiny and bslib, to try DirectoR on.
+
+2
+00:00:08,204 --> 00:00:09,420
+Meet Orbit.
+
+3
+00:00:10,604 --> 00:00:14,377
+Revenue, customers and growth, at a glance.
+
+4
+00:00:14,827 --> 00:00:20,856
+Explore. Pick a region and a time window; the chart and trend line follow instantly.
+
+5
+00:00:21,306 --> 00:00:26,508
+Forecast. Set a growth scenario and see the projected revenue months ahead.
+
+6
+00:00:26,958 --> 00:00:30,500
+Data. Every monthly figure in one clean table.
+
+7
+00:00:33,750 --> 00:00:36,756
+Orbit. Revenue, in orbit.

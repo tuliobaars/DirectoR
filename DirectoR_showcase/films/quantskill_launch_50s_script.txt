@@ -1,0 +1,9 @@
+QuantSkill: voice-over script (pico)
+
+[00.60-06.15]  Self-reported skill levels are generous, so a "4 out of 5" says little.
+[06.90-14.35]  Meet QuantSkill. An adaptive, gamified skills assessment for R, Git, Shiny, internal tools.
+[15.10-22.96]  QuantSkill measures what people can actually do, with adaptive questions, confidence stakes and a report for every skill area.
+[23.71-28.41]  Prove. Adaptive questions, each locked in with a confidence stake.
+[29.16-34.49]  Draw a balanced set of open questions, print the script, then grade answers live.
+[35.24-41.98]  Combine everyone's results to find real strengths, hidden gaps and where self-perception drifts from evidence.
+[45.53-48.24]  QuantSkill. Skills, measured.

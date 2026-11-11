@@ -1,0 +1,27 @@
+1
+00:00:00,550 --> 00:00:06,398
+Self-reported skill levels are generous, so a "4 out of 5" says little.
+
+2
+00:00:06,848 --> 00:00:14,601
+Meet QuantSkill. An adaptive, gamified skills assessment for R, Git, Shiny, internal tools.
+
+3
+00:00:15,051 --> 00:00:23,213
+QuantSkill measures what people can actually do, with adaptive questions, confidence stakes and a report for every skill area.
+
+4
+00:00:23,663 --> 00:00:28,659
+Prove. Adaptive questions, each locked in with a confidence stake.
+
+5
+00:00:29,109 --> 00:00:34,739
+Draw a balanced set of open questions, print the script, then grade answers live.
+
+6
+00:00:35,189 --> 00:00:42,228
+Combine everyone's results to find real strengths, hidden gaps and where self-perception drifts from evidence.
+
+7
+00:00:45,478 --> 00:00:48,495
+QuantSkill. Skills, measured.
