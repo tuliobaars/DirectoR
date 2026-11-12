@@ -2,10 +2,10 @@
 
 DirectoR belongs to the **Lumen** framework (cinematic, high-contrast, glass-driven) of the Taiga design system. Its dialect: **Studio dark**.
 
-- Framework styleguide: [`../../taiga-design-system/lumen/STYLEGUIDE.md`](../../taiga-design-system/lumen/STYLEGUIDE.md)
-- Requirements for new projects: [`../../taiga-design-system/lumen/REQUIREMENTS.md`](../../taiga-design-system/lumen/REQUIREMENTS.md)
-- Delivery model (Shiny · Quarto · HTML): [`../../taiga-design-system/DELIVERY_MODEL.md`](../../taiga-design-system/DELIVERY_MODEL.md)
-- Extracted tokens: [`../../taiga-design-system/tokens/DirectoR.json`](../../taiga-design-system/tokens/DirectoR.json), contrast: [`../../taiga-design-system/tokens/contrast.md`](../../taiga-design-system/tokens/contrast.md)
+- Framework styleguide: [`../../taiga-design-system/inst/guides/lumen/STYLEGUIDE.md`](../../taiga-design-system/inst/guides/lumen/STYLEGUIDE.md) (in R: `taiga::taiga_guide("lumen-styleguide")`)
+- Requirements for new projects: [`../../taiga-design-system/inst/guides/lumen/REQUIREMENTS.md`](../../taiga-design-system/inst/guides/lumen/REQUIREMENTS.md)
+- Delivery model (Shiny · Quarto · HTML): [`../../taiga-design-system/inst/guides/DELIVERY_MODEL.md`](../../taiga-design-system/inst/guides/DELIVERY_MODEL.md)
+- Extracted tokens: [`../../taiga-design-system/inst/extdata/tokens/DirectoR.json`](../../taiga-design-system/inst/extdata/tokens/DirectoR.json) (in R: `taiga::taiga_extracted("DirectoR")`), contrast: [`contrast.md`](../../taiga-design-system/inst/extdata/tokens/contrast.md)
 
 ## Look
 
@@ -44,7 +44,7 @@ Every Taiga project specifies the triple-format delivery model (one front end, t
 | Quarto | **specified, not yet built** | planned `dr_export_quarto(project)` | A press-kit document: film, script with timings, storyboard, stills. |
 | HTML | **specified, not yet built** | planned `dr_export_html(project)` | One file per film: video, captions (WebVTT), poster, script; or the engine's live preview inlined. |
 
-The Quarto and HTML formats are specified in the delivery model, with a plan that reuses what the app already has: [`DELIVERY_MODEL.md` §5.1](../../taiga-design-system/DELIVERY_MODEL.md#51-plans-for-the-gaps). Requirements: DLV-01 to DLV-32.
+The Quarto and HTML formats are specified in the delivery model, with a plan that reuses what the app already has: [`DELIVERY_MODEL.md` §5.1](../../taiga-design-system/inst/guides/DELIVERY_MODEL.md#51-plans-for-the-gaps). Requirements: DLV-01 to DLV-32.
 
 Capability matrix:
 

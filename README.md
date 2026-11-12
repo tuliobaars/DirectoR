@@ -42,7 +42,7 @@ shiny::runApp(system.file("examples/orbit", package = "DirectoR"), port = 3838) 
 | Quarto | specified, not yet built | planned `dr_export_quarto(project)` |
 | HTML | specified, not yet built | planned `dr_export_html(project)` |
 
-Design system: **Lumen** (cinematic, high-contrast, glass-driven). Styleguide, requirements and the Shiny · Quarto · HTML delivery model are in [`../taiga-design-system/`](../taiga-design-system/README.md); this project's page is [docs/DESIGN.md](docs/DESIGN.md).
+Design system: **Lumen** (cinematic, high-contrast, glass-driven), from the **taiga** R package in [`../taiga-design-system/`](../taiga-design-system/README.md): styleguide, requirements, tokens and the Shiny · Quarto · HTML delivery model (`taiga::taiga_guide()`, `taiga::taiga_export_html()`…). This project's page is [docs/DESIGN.md](docs/DESIGN.md).
 
 <!-- taiga:end -->
 
